@@ -16,9 +16,17 @@
     "gaming"
   ],
   "scripts": {
-    "clean": "rimraf node_modules"
+    "clean": "rimraf node_modules",
+    "format": "prettier --write . && eslint --fix .",
+    "lint": "prettier --check . && eslint ."
   },
   "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.40.0",
+    "@typescript-eslint/parser": "^5.40.0",
+    "eslint": "^8.25.0",
+    "eslint-plugin-simple-import-sort": "^8.0.0",
+    "prettier": "^2.7.1",
+    "prettier-plugin-pkg": "^0.17.1",
     "rimraf": "^3.0.2",
     "typescript": "^4.8.4"
   },
