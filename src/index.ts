@@ -6,5 +6,10 @@
  * See LICENSE.txt for more information.
  */
 
-// Needed until an import or export is added to make this a module
+// Fix error:
+//
+//   [@snowpack/plugin-typescript] src/index.ts(13,1): error TS1208: 'index.ts'
+//   cannot be compiled under '--isolatedModules' because it is considered a
+//   global script file. Add an import, export, or an empty 'export {}'
+//   statement to make it a module.
 export {};
