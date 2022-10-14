@@ -4,5 +4,6 @@
   "moderate": true,
   "high": true,
   "critical": true,
-  "package-manager": "yarn"
+  "package-manager": "yarn",
+  "allowlist": ["GHSA-88g8-f5mf-f5rj", "GHSA-7grf-83vw-6f5x"]
 }
